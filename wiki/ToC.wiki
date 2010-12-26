@@ -1,5 +1,3 @@
-#sidebar TableOfContents
-
  * [Introduccion]
  * [Clientes]
  * [Productos]
