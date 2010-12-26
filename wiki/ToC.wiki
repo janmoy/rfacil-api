@@ -1,0 +1,6 @@
+#sidebar TableOfContents
+
+ * [Introduccion]
+ * [Clientes]
+ * [Productos]
+ * [Facturas]
