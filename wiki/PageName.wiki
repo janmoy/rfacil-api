@@ -1,0 +1,15 @@
+#summary Introducción
+= Introduction =
+
+Cualquier llamada tiene el siguiente formato REST
+
+= Details =
+
+
+https://www.rfacil.com/controller/view.xml?username=_username_&password=_password_&apikey=_apikey_
+
+Donde
+
+* _username_ es el correo electrónico del usuario
+* _password_ es la contraseña asociada al usuario
+* _apikey_ es una clave de 32 caracteres separadas por guión, asignada a la aplicación
