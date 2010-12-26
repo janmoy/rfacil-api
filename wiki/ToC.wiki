@@ -1,4 +1,6 @@
-API para rfácil
+#summary Tabla de Contenidos
+
+= API para rfácil =
 
  * [Introduccion]
  * [Clientes]
