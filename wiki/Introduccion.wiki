@@ -1,4 +1,5 @@
 #summary Introducción
+#sidebar ToC
 
 = Introducción =
 
