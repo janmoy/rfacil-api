@@ -1,15 +1,187 @@
 #summary Introducción
-= Introduction =
+
+= Introducción =
 
 Cualquier llamada tiene el siguiente formato REST
 
-= Details =
+= Detalle =
 
 
-https://www.rfacil.com/controller/view.xml?username=_username_&password=_password_&apikey=_apikey_
+https://www.rfacil.com/controller/view/param1/param2.../paramn.xml?username=_username_&password=_password_&apikey=_apikey_&tax_reference=_ẗax_reference
 
-Donde
+Obligatoriamente:
 
-* _username_ es el correo electrónico del usuario
-* _password_ es la contraseña asociada al usuario
-* _apikey_ es una clave de 32 caracteres separadas por guión, asignada a la aplicación
+ * _username_ es el correo electrónico del usuario
+ * _password_ es la contraseña asociada al usuario
+ * _apikey_ es una clave de 32 caracteres separadas por guión, asignada a la aplicación
+
+Opcionalmente
+
+ * _tax_reference_ es el RFC de la organización en la que estamos trabajando. Si no se proporciona, se toma la primera de las organizaciones del usuario.
+
+= Clientes =
+
+== Lista de clientes ==
+
+Llamada:
+
+ * _controller_ - clients
+ * _view_ - index
+
+Parámetros obligatorios:
+
+ * Ninguno
+
+Parámetros ocionales:
+
+ * _search_ - Palabra de búsqueda (en RFC o Razón Social)
+
+== Añadir un cliente ==
+
+Llamada:
+
+ * _controller_ - clients
+ * _view_ - add
+
+Parámetros:
+
+ * Ninguno
+
+Datos POST:
+
+ * _`data[Client][official_name]`_ - Razón Social (Obligatorio)
+ * _`data[Client][tax_reference]`_ - RFC del cliente (Obligatorio, en mayúsculas, únicamente caracteres alfanuméricos, y 12 a 13 caracteres)
+ * _`data[Client][email]`_
+ * _`data[Client][phone]`_
+ * _`data[Client][street]`_ 
+ * _`data[Client][exterior_number]`_ 
+ * _`data[Client][interior_number]`_ 
+ * _`data[Client][postal_code]`_ 
+ * _`data[Client][state]`_ 
+ * _`data[Client][quarter]`_ 
+ * _`data[Client][municipality]`_ 
+ * _`data[Client][city]`_ 
+ * _`data[Client][country]`_ - Valor por defecto: México
+
+
+== Editar un cliente ==
+
+Llamada:
+
+ * _controller_ - clients
+ * _view_ - add
+
+Parámetros:
+
+ * _id_ - ID del cliente a editar
+
+Datos POST:
+
+ * _`data[Client][id]`_ - ID del cliente (Obligatorio)
+ * _`data[Client][official_name]`_ - Razón Social (Obligatorio)
+ * _`data[Client][tax_reference]`_ - RFC del cliente (Obligatorio, en mayúsculas, únicamente caracteres alfanuméricos, y 12 a 13 caracteres)
+ * _`data[Client][email]`_
+ * _`data[Client][phone]`_
+ * _`data[Client][street]`_ 
+ * _`data[Client][exterior_number]`_ 
+ * _`data[Client][interior_number]`_ 
+ * _`data[Client][postal_code]`_ 
+ * _`data[Client][state]`_ 
+ * _`data[Client][quarter]`_ 
+ * _``data[Client][municipality]`_ 
+ * _`data[Client][city]`_ 
+ * _`data[Client][country]`_ - Valor por defecto: México
+
+== Borar un cliente ==
+
+Llamada:
+
+ * _controller_ - clients
+ * _view_ - delete
+
+Parámetros:
+
+ * _id_ - ID del cliente a borrar
+
+= Productos = 
+
+== Lista de productos ==
+
+Llamada:
+
+ * _controller_ - products
+ * _view_ - index
+
+Parámetros obligatorios:
+
+ * Ninguno
+
+Parámetros ocionales:
+
+ * _search_ - Palabra de búsqueda (en RFC o Razón Social)
+
+== Añadir un producto ==
+
+Llamada:
+
+ * _controller_ - products
+ * _view_ - add
+
+Parámetros:
+
+ * Ninguno
+
+Datos POST:
+
+ * _`data[Product][title]`_ - Nombre (Obligatorio)
+ * _`data[Product][code]`_
+ * _`data[Product][manufacturer]`_
+ * _`data[Product][description]`_
+ * _`data[Product][quantity_per_unit]`_ 
+ * _`data[Product][unit_price]`_ 
+ * _`data[Product][weight]`_ 
+ * _`data[Product][pack_size]`_ 
+ * _`data[Product][sku]`_ 
+ * _`data[Product][serial_number]`_ 
+ * _`data[Product][lot]`_ 
+
+
+== Editar un producte ==
+
+Llamada:
+
+ * _controller_ - products
+ * _view_ - add
+
+Parámetros:
+
+ * _id_ - ID del producto a editar
+
+Datos POST:
+
+ * _`data[Product][id]`_ - ID del producto (Obligatorio)
+ * _`data[Product][title]`_ - Nombre (Obligatorio)
+ * _`data[Product][code]`_
+ * _`data[Product][manufacturer]`_
+ * _`data[Product][description]`_
+ * _`data[Product][quantity_per_unit]`_ 
+ * _`data[Product][unit_price]`_ 
+ * _`data[Product][weight]`_ 
+ * _`data[Product][pack_size]`_ 
+ * _`data[Product][sku]`_ 
+ * _`data[Product][serial_number]`_ 
+ * _`data[Product][lot]`_ 
+
+
+== Borar un producto ==
+
+Llamada:
+
+ * _controller_ - products
+ * _view_ - delete
+
+Parámetros:
+
+ * _id_ - ID del producto a borrar
+
+= Facturas =
