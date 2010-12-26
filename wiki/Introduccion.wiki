@@ -23,6 +23,6 @@ Opcionalmente
 
 La API de rfácil actualmente soporta los siguientes controladores:
 
- * Products
- * Clients
- * Invoices
+ * [Products]
+ * [Clients]
+ * [Invoices]
