@@ -19,6 +19,7 @@ Parámetros
 
  * Ninguno
 
+Ejemplo: https://www.rfacil.com/invoices/add.xml?username=username&password=password&api_key=api_key
 
 Datos POST:
 
