@@ -56,10 +56,6 @@ Llamada:
  * _controller_ - products
  * _view_ - add
 
-Parámetros:
-
- * _id_ - ID del producto a editar
-
 Datos POST:
 
  * _`data[Product][id]`_ - ID del producto (Obligatorio)
