@@ -24,7 +24,7 @@ Ejemplo: https://www.rfacil.com/invoices/add.xml?username=username&password=pass
 Datos POST:
 
  * _`data[Invoice][total]`_  Total
- * _`data[Invoice][discount_amount]`_  Cantidad de descuento, opcional
+ * _`data[Invoice][discount_amount]`_  Monto de descuento
  * _`data[Invoice][discount_percent]`_  Porcentaje de descuento, opcional
  * _`data[Invoice][discount_reason]`_  Motivo de descuento, opcional
  * _`data[Invoice][subtotal]`_  Subtotal
