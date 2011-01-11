@@ -75,7 +75,7 @@ Datos POST:
  * _`data[Client][postal_code]`_ 
  * _`data[Client][state]`_ 
  * _`data[Client][quarter]`_ 
- * _``data[Client][municipality]`_ 
+ * _`data[Client][municipality]`_ 
  * _`data[Client][city]`_ 
  * _`data[Client][country]`_ - Valor por defecto: México
 
