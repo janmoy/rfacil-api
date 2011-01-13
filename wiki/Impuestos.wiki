@@ -1,13 +1,20 @@
-#summary One-sentence summary of this page.
+#summary API para manejo de impuestos en rfácil
+#sidebar ToC
 
 = Introduction =
 
-Add your content here.
+Llamadas para manejo de impuestos
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== Lista de impuestos ==
+
+Llamada:
+
+ * _controller_ - taxes
+ * _view_ - index
+
+Parámetros obligatorios:
+
+ * Ninguno
