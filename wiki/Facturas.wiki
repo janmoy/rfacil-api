@@ -85,3 +85,20 @@ Productos a facturar. Se puede crear un nuevo producto, indicando su nombre, o b
  * _`data[InvoicesProduct][2][Tax][0][amount]`_  cantidad del impuesto para este producto
 
 etc...
+
+== Generación del CFD ==
+
+Llamada:
+
+ * _controller_ - invoices
+ * _view_ - create_cfd
+
+Parámetros
+
+ * id de la factura
+
+Ejemplo: https://www.rfacil.com/invoices/create_cfd/23.xml?username=username&password=password&apikey=apikey
+
+Datos POST:
+
+Ninguno
