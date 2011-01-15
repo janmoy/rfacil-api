@@ -70,14 +70,10 @@ Productos a facturar. Se puede crear un nuevo producto, indicando su nombre, o b
 
  * _`data[InvoicesProduct][1][Tax][0][id]`_  id del impuesto
  * _`data[InvoicesProduct][1][Tax][0][percentage]`_  porcentaje del impuesto (16)
- * _`data[InvoicesProduct][1][Tax][0][label]`_  etiqueta del impuesto (IVA)
- * _`data[InvoicesProduct][1][Tax][0][name]`_  nombre del impuesto (IVA Traslado)
  * _`data[InvoicesProduct][1][Tax][0][amount]`_  cantidad del impuesto para este producto
 
  * _`data[InvoicesProduct][1][Tax][1][id]`_  id del siguiente impuesto
  * _`data[InvoicesProduct][1][Tax][1][percentage]`_  porcentaje del impuesto
- * _`data[InvoicesProduct][1][Tax][1][label]`_  etiqueta del impuesto
- * _`data[InvoicesProduct][1][Tax][1][name]`_  nombre del impuesto
  * _`data[InvoicesProduct][1][Tax][1][amount]`_  cantidad del impuesto para este producto
 
 
@@ -86,8 +82,6 @@ Productos a facturar. Se puede crear un nuevo producto, indicando su nombre, o b
  * _`data[InvoicesProduct][2][price]`_  Precio Unitario
  * _`data[InvoicesProduct][2][Tax][0][id]`_  id del impuesto (1)
  * _`data[InvoicesProduct][2][Tax][0][percentage]`_  porcentaje del impuesto (16)
- * _`data[InvoicesProduct][2][Tax][0][label]`_  etiqueta del impuesto (IVA)
- * _`data[InvoicesProduct][2][Tax][0][name]`_  nombre del impuesto (IVA Traslado)
  * _`data[InvoicesProduct][2][Tax][0][amount]`_  cantidad del impuesto para este producto
 
 etc...
