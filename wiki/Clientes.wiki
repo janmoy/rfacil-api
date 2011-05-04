@@ -89,3 +89,14 @@ Llamada:
 Parámetros:
 
  * _id_ - ID del cliente a borrar
+
+== Busqueda de un cliente por RFC ==
+
+Llamada:
+
+ * _controller_ - clients
+ * _view_ - view_by_tax_reference
+
+Parámetros:
+
+ * _tax_reference_ - RFC del cliente a buscar
