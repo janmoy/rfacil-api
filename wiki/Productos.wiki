@@ -71,7 +71,6 @@ Datos POST:
  * _`data[Product][serial_number]`_ 
  * _`data[Product][lot]`_ 
 
-
 == Borar un producto ==
 
 Llamada:
@@ -82,3 +81,13 @@ Llamada:
 Parámetros:
 
  * _id_ - ID del producto a borrar
+
+== Detalle de un producto ==
+
+Llamada:
+
+ * _controller_ - products
+ * _view_ - view
+Parámetros:
+
+ * _id_ - ID del producto a ver
