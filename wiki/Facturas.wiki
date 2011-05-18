@@ -8,6 +8,31 @@ Llamadas para manejo de facturas
 
 = Details =
 
+== Lista de Facturas ==
+
+Llamada:
+
+ * _controller_ - invoices
+ * _view_ - index
+
+Parámetros
+
+ * Ninguno
+
+== Detalle de Factura ==
+
+Llamada: 
+
+ * _controller_ - invoices
+ * _view_ - detail
+
+Parámetros
+
+ * _id_ - id de la factura
+
+
+Ejemplo: https://www.rfacil.com/invoices/view/58.xml?username=username&password=password&apikey=apikey
+
 == Creación ==
 
 Llamada:
