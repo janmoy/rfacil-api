@@ -100,3 +100,24 @@ Llamada:
 Parámetros:
 
  * _tax_reference_ - RFC del cliente a buscar
+
+== Detalle de un cliente ==
+
+Llamada:
+
+ * _controller_ - clients
+ * _view_ - view
+Parámetros:
+
+ * _id_ - ID del cliente
+
+== Detalle de un cliente por RFC ==
+
+Llamada:
+
+ * _controller_ - clients
+ * _view_ - view_by_tax_reference
+
+Parámetros:
+
+ * _tax reference_ - RFC del cliente
