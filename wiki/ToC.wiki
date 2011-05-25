@@ -10,5 +10,5 @@
  * [Estados]
  * [Ciudades]
  * [Municipios]
- * [CodigosPostales - Códigos Postales]
+ * [CodigosPostales Códigos Postales]
  
