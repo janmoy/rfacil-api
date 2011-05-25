@@ -17,13 +17,3 @@ Llamada:
 Parámetros obligatorios:
 
  * Ninguno
-
-== Detalle de estados ==
-
-Llamada:
-
- * _controller_ - states
- * _view_ - view
-Parámetros obligatorios:
-
- * _id_ - Id del estado
