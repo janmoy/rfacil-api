@@ -1,0 +1,18 @@
+#summary API para manejo de municipios en rfácil
+#sidebar ToC
+
+= Introduction =
+
+Provee información de Municipios
+
+= Details =
+
+== Detalle de municipio ==
+
+Llamada:
+
+ * _controller_ - states
+ * _view_ - view
+Parámetros obligatorios:
+
+ * _id_ - Id del municipio
