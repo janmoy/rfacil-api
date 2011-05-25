@@ -11,8 +11,9 @@ Provee información de Municipios
 
 Llamada:
 
- * _controller_ - states
+ * _controller_ - municipalities
  * _view_ - view
+
 Parámetros obligatorios:
 
  * _id_ - Id del municipio
