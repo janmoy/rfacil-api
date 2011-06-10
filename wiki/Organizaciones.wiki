@@ -1,0 +1,23 @@
+#summary API para manejo de organizaciones en rfácil
+#sidebar ToC
+
+= Introduction =
+
+Una organización es aquella entidad que emite Comprobantes Fiscales Digitales.
+
+= Details =
+
+== Lista de organizaciones ==
+
+Llamada:
+
+ * _controller_ - organizations
+ * _view_ - index
+
+Parámetros obligatorios:
+
+ * Ninguno
+
+Parámetros opcionales:
+
+ * Ninguno
