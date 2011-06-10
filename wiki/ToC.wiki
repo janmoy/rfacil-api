@@ -4,6 +4,7 @@
 
  * [Introduccion]
  * [Clientes]
+ * [Organizaciones]
  * [Productos]
  * [Facturas]
  * [Impuestos]
