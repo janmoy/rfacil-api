@@ -127,3 +127,25 @@ Ejemplo: https://www.rfacil.com/invoices/create_cfd/23.xml?username=username&pas
 Datos POST:
 
 Ninguno
+
+== Descarga del XML ==
+
+Llamada:
+
+ * _controller_ - sat_cfds
+ * _view_ - xml
+
+Parámetros
+
+ * id del CFDI regresado al crear la factura
+
+== Descarga del PDF ==
+
+Llamada:
+
+ * _controller_ - sat_cfds
+ * _view_ - PDF
+
+Parámetros
+
+ * id del CFDI regresado al crear la factura
