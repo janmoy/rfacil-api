@@ -149,3 +149,5 @@ Llamada:
 Parámetros
 
  * id del CFDI regresado al crear la factura
+
+Devuelve el XML del CFDI en formato base64
