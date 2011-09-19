@@ -139,15 +139,19 @@ Parámetros
 
  * id del CFDI regresado al crear la factura
 
+Ejemplo: https://www.rfacil.com/sat_cfds/xml/23.xml?username=username&password=password&apikey=apikey
+
 == Descarga del PDF ==
 
 Llamada:
 
  * _controller_ - sat_cfds
- * _view_ - PDF
+ * _view_ - pdf
 
 Parámetros
 
  * id del CFDI regresado al crear la factura
 
 Devuelve el XML del CFDI en formato base64
+
+Ejemplo: https://www.rfacil.com/sat_cfds/pdf/23.xml?username=username&password=password&apikey=apikey
