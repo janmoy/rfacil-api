@@ -17,7 +17,7 @@ Llamada:
 
 Parámetros
 
- * _search_param_ - Patrón de búsqueda por RFC o Razón Social ^(Opcional)^
+ * _search_param_ - Patrón de búsqueda por RFC o Razón Social *(Opcional)*
 
 == Detalle de Factura ==
 
