@@ -59,15 +59,16 @@ Datos POST:
  * _`data[Invoice][subtotal]`_  Subtotal
  * _`data[Invoice][subject]`_  Asunto
  * _`data[Invoice][payment_method]`_  Método de pago
- ||*Cuenta de pago requerida* ||  *Método de pago* || 
- || Si || Check || 
- || Si || Credit Card ||
- || No || PayPal || 
- || No || Exchange ||
- || Si || Transfer ||
- || No || Deposit ||
- || No || Cash ||
- || No || Other ||
+||*Cuenta de pago requerida* ||  *Método de pago* || 
+|| Si || Check || 
+|| Si || Credit Card ||
+|| No || PayPal || 
+|| No || Exchange ||
+|| Si || Transfer ||
+|| No || Deposit ||
+|| No || Cash ||
+|| No || Other ||
+
  * _`data[Invoice][payment_account]`_  Cuenta de pago *(Solo si el método de pago lo requiere)*
  * _`data[Invoice][currency]`_  Moneda *(1=Peso, 2=Dolar)*
  * _`data[Invoice][exchange_rate]`_  Cambio *(Requerido solo si se factura en dolares)*
@@ -141,15 +142,6 @@ Complementos y elementos por concepto. Información adicional a cada producto
 
 o
    Información aduanera
- ||*Cuenta de pago requerida* ||  *Método de pago* || 
- || Si || Check || 
- || Si || Credit Card ||
- || No || PayPal || 
- || No || Exchange ||
- || Si || Transfer ||
- || No || Deposit ||
- || No || Cash ||
- || No || Other ||
 
 == Generación del CFD ==
 
