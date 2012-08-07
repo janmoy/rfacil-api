@@ -1,4 +1,4 @@
-#summary API para manejo de facturas en rfácil
+#summary API para manejo de CFDI's en rfácil
 #sidebar ToC
 
 = Introduction =
