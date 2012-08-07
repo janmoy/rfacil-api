@@ -19,6 +19,10 @@ Parámetros
 
  * _search_param_ - Patrón de búsqueda por RFC o Razón Social *(Opcional)*
 
+Ejemplo:
+ * https://www.rfacil.com/invoices/index/AAAA010101AAA.xml?username=username&password=password&apikey=apikey
+
+
 == Detalle de Factura ==
 
 Llamada: 
