@@ -59,7 +59,16 @@ Datos POST:
  * _`data[Invoice][subtotal]`_  Subtotal
  * _`data[Invoice][subject]`_  Asunto
  * _`data[Invoice][payment_method]`_  Método de pago
- * _`data[Invoice][payment_account]`_  Cuenta de pago *(Solo si el metodo de pago lo requiere)*
+ || *Método de pago* || *Cuenta de pago requerida* ||
+ || Check ||
+ || Credit Card ||
+ || PayPal ||
+ || Exchange ||
+ || Transfer ||
+ || Deposit ||
+ || Cash ||
+ || Other ||
+ * _`data[Invoice][payment_account]`_  Cuenta de pago *(Solo si el método de pago lo requiere)*
  * _`data[Invoice][currency]`_  Moneda *(1=Peso, 2=Dolar)*
  * _`data[Invoice][exchange_rate]`_  Cambio *(Requerido solo si se factura en dolares)*
  * _`data[Invoice][type]`_  Tipo de comprobante
@@ -121,7 +130,7 @@ Productos a facturar. Se puede crear un nuevo producto, indicando su nombre, o b
 etc...
 
 
-Complementos por concepto. Información adicional a cada producto
+Complementos y elementos por concepto. Información adicional a cada producto
 
    Instituciones Educativas privadas
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][nombre_alumno]`_  Nombre del alumno
@@ -129,6 +138,10 @@ Complementos por concepto. Información adicional a cada producto
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][nivel_educativo]`_  Nivel educativo
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][aut_rvoe]`_  Clave del centro de trabajo
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][rfc_pago]`_  RFC de quien realiza el pago cuando sea diferente a quien recibe el servicio *(Opcional)*
+
+o
+   Información aduanera
+
 
 == Generación del CFD ==
 
