@@ -60,14 +60,14 @@ Datos POST:
  * _`data[Invoice][subject]`_  Asunto
  * _`data[Invoice][payment_method]`_  Método de pago
  || *Método de pago* || *Cuenta de pago requerida* ||
- || Check ||
- || Credit Card ||
- || PayPal ||
- || Exchange ||
- || Transfer ||
- || Deposit ||
- || Cash ||
- || Other ||
+ || Check || Si ||
+ || Credit Card || Si ||
+ || PayPal || No ||
+ || Exchange || No ||
+ || Transfer || Si ||
+ || Deposit || No ||
+ || Cash || No ||
+ || Other || No ||
  * _`data[Invoice][payment_account]`_  Cuenta de pago *(Solo si el método de pago lo requiere)*
  * _`data[Invoice][currency]`_  Moneda *(1=Peso, 2=Dolar)*
  * _`data[Invoice][exchange_rate]`_  Cambio *(Requerido solo si se factura en dolares)*
