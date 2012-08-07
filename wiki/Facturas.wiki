@@ -141,7 +141,15 @@ Complementos y elementos por concepto. Información adicional a cada producto
 
 o
    Información aduanera
-
+ ||*Cuenta de pago requerida* ||  *Método de pago* || 
+ || Si || Check || 
+ || Si || Credit Card ||
+ || No || PayPal || 
+ || No || Exchange ||
+ || Si || Transfer ||
+ || No || Deposit ||
+ || No || Cash ||
+ || No || Other ||
 
 == Generación del CFD ==
 
