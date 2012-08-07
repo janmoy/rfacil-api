@@ -59,9 +59,9 @@ Datos POST:
  * _`data[Invoice][subtotal]`_  Subtotal
  * _`data[Invoice][subject]`_  Asunto
  * _`data[Invoice][payment_method]`_  Método de pago
- * _`data[Invoice][payment_account]`_  Cuenta de pago (Solo si el metodo de pago lo requiere)
- * _`data[Invoice][currency]`_  Moneda (1=Peso, 2=Dolar)
- * _`data[Invoice][exchange_rate]`_  Cambio (Requerido solo si se factura en dolares)
+ * _`data[Invoice][payment_account]`_  Cuenta de pago *(Solo si el metodo de pago lo requiere)*
+ * _`data[Invoice][currency]`_  Moneda *(1=Peso, 2=Dolar)*
+ * _`data[Invoice][exchange_rate]`_  Cambio *(Requerido solo si se factura en dolares)*
  * _`data[Invoice][type]`_  Tipo de comprobante
 
  * _`data[Invoice][client_id]`_  Id del cliente a facturar
@@ -128,7 +128,7 @@ Complementos por concepto. Información adicional a cada producto
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][curp]`_  CURP del alumno
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][nivel_educativo]`_  Nivel educativo
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][aut_rvoe]`_  Número de autorización
-   * _data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][rfc_pago]`_  RFC del cual realizó el pago (Opcional)
+   * _data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][rfc_pago]`_  RFC del cual realizó el pago *(Opcional)*
 
 == Generación del CFD ==
 
