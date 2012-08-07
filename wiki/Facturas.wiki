@@ -3,12 +3,12 @@
 
 = Introduction =
 
-Llamadas para manejo de facturas
+Llamadas para manejo de CFDI's
 
 
 = Details =
 
-== Lista de Facturas ==
+== Lista de CFDI's ==
 
 Llamada:
 
@@ -17,7 +17,7 @@ Llamada:
 
 Parámetros
 
- * Ninguno
+ * _search_param_ - Patrón de búsqueda por RFC o Razón Social
 
 == Detalle de Factura ==
 
