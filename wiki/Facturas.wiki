@@ -127,8 +127,8 @@ Complementos por concepto. Información adicional a cada producto
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][nombre_alumno]`_  Nombre del alumno
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][curp]`_  CURP del alumno
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][nivel_educativo]`_  Nivel educativo
-   * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][aut_rvoe]`_  Número de autorización
-   * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][rfc_pago]`_  RFC del cual realizó el pago *(Opcional)*
+   * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][aut_rvoe]`_  Clave del centro de trabajo
+   * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][rfc_pago]`_  RFC de quien realiza el pago cuando sea diferente a quien recibe el servicio *(Opcional)*
 
 == Generación del CFD ==
 
