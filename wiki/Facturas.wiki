@@ -59,7 +59,7 @@ Datos POST:
  * _`data[Invoice][subtotal]`_  Subtotal
  * _`data[Invoice][subject]`_  Asunto
  * _`data[Invoice][payment_method]`_  Método de pago
-||*Cuenta de pago requerida* ||  *Método de pago* || 
+||*Cuenta de pago* ||  *Método de pago* || 
 || Si || Check || 
 || Si || Credit Card ||
 || No || PayPal || 
