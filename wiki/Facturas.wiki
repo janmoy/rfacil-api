@@ -130,7 +130,7 @@ Productos a facturar. Se puede crear un nuevo producto, indicando su nombre, o b
 etc...
 
 
-*Complementos, Addendas y elementos por concepto*
+*COMPLEMENTOS _(OPCIONAL)_*
 
  _*COMPLEMENTOS POR CONCEPTO*_
 
