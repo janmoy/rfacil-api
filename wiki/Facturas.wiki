@@ -131,17 +131,74 @@ Productos a facturar. Se puede crear un nuevo producto, indicando su nombre, o b
 etc...
 
 
-Complementos y elementos por concepto. Información adicional a cada producto
+*Complementos, Addendas y elementos por concepto*
 
-   Instituciones Educativas privadas
+ _*COMPLEMENTOS POR CONCEPTO*_
+
+   _*Instituciones Educativas privadas *_
+   
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][nombre_alumno]`_  Nombre del alumno
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][curp]`_  CURP del alumno
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][nivel_educativo]`_  Nivel educativo
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][aut_rvoe]`_  Clave del centro de trabajo
    * _`data[InvoicesProduct][0][Complements][INSTEDUPRIV][ComplementInstedupriv][rfc_pago]`_  RFC de quien realiza el pago cuando sea diferente a quien recibe el servicio *(Opcional)*
 
+   
+  _*ELEMENTOS POR CONCEPTO*_
+  
+   _* Información aduanera*_
+   * _`data[InvoicesProduct][0][ElementConcept][INFOADUANERA][1][numero]`_ Número de la aduana
+   * _`data[InvoicesProduct][0][ElementConcept][INFOADUANERA][1][aduana]`_ Nombre de la aduana
+   * _`data[InvoicesProduct][0][ElementConcept][INFOADUANERA][1][fecha]`_ Fecha
+
 o
-   Información aduanera
+   
+   _* Cuenta Predial*_
+   * _`data[InvoicesProduct][0][ElementConcept][predialAccount][numero]`_ Número de la cuenta
+  
+  
+ _*COMPLEMENTOS POR FACTURA*_
+  
+  _* Donatarias*_
+  * _`data[Invoice][Complements][DONATARIAS][ComplementDonatarias][fecha_autorizacion]`_ Fecha en la cual se autorizo _formato_ (AAAA-MM-DD)
+  * _`data[Invoice][Complements][DONATARIAS][ComplementDonatarias][leyenda]`_ Leyenda que acompaña al complemento
+  * _`data[Invoice][Complements][DONATARIAS][ComplementDonatarias][no_autorizacion]`_ Número de autorización
+  
+  _*Compra Venta de divisas*_
+  * _`data[Invoice][Complements][COMVENDIVISA][ComplementComvendivisa][operacion]`_ Tipo de operación _Compra_,_Venta_
+  
+  _*Otros derechos e impuestos*_
+  * _`data[Invoice][Complements][OTRDERIMP][ComplementOtrderimp][detail][0][imp_loc]`_ Impuesto que se esta aplicado _String_
+  * _`data[Invoice][Complements][OTRDERIMP][ComplementOtrderimp][detail][0][importe]`_ Importe de impuesto
+  * _`data[Invoice][Complements][OTRDERIMP][ComplementOtrderimp][detail][0][operacion]`_ Tipo de operacion _Retencion_,_Traslado_
+  * _`data[Invoice][Complements][OTRDERIMP][ComplementOtrderimp][detail][0][tasa]`_ Tasa de impuesto
+  * _`data[Invoice][Complements][OTRDERIMP][ComplementOtrderimp][total_de_retenciones]`_ Suma total de las retenciones
+  * _`data[Invoice][Complements][OTRDERIMP][ComplementOtrderimp][total_de_traslados]`_ Suma total de los traslados
+  
+  _*Leyendas Fiscales*_
+  * _`data[Invoice][Complements][LEYENDFISC][ComplementLeyendfisc][detail][1][disposicion_fiscal]`_ Disposicion Fiscal o ley que regula la leyenda
+  * _`data[Invoice][Complements][LEYENDFISC][ComplementLeyendfisc][detail][1][norma]`_ No. de artículo que regula la leyenda
+  * _`data[Invoice][Complements][LEYENDFISC][ComplementLeyendfisc][detail][1][texto_leyenda]`_ Texto de la leyenda
+  
+  _*Persona física integrante de coordinado*_                           
+  * _`data[Invoice][Complements][PERFISCOORD][ComplementPerfiscoord][clave_vehicular]`_ Clave vehicular que corresponda a la versión del vehículo enajenado
+  * _`data[Invoice][Complements][PERFISCOORD][ComplementPerfiscoord][placa]`_ Placa o número de folio del permiso del vehículo que corresponda
+  * _`data[Invoice][Complements][PERFISCOORD][ComplementPerfiscoord][rfcpf]`_ RFC de la persona física integrante de coordinados, que opte por pagar el impuesto individualmente *(opcional)*
+  
+  _*Turista pasajero extranjero*_
+  * _`data[Invoice][Complements][TURPASEXTR][ComplementTurpasextr][empresa_transporte]`_ Empresa de transporte que lo ingresa a territorio nacional o lo traslada de salida
+  * _`data[Invoice][Complements][TURPASEXTR][ComplementTurpasextr][fecha_de_transito]`_ fecha y hora del Arribo o Salida del medio de transporte utilizado. Se expresa en la forma aaaa-mm-ddThh:mm:ss, de acuerdo con la especificación ISO 8601
+  * _`data[Invoice][Complements][TURPASEXTR][ComplementTurpasextr][id_transporte]`_ Identificador del medio de transporte usado, _ejemplo: número de vuelo_ *(opcional)*
+  * _`data[Invoice][Complements][TURPASEXTR][ComplementTurpasextr][nacionalidad]`_ nacionalidad del turista
+  * _`data[Invoice][Complements][TURPASEXTR][ComplementTurpasextr][numero_id]`_ Número de identificación (pasaporte, visa, etc.)
+  * _`data[Invoice][Complements][TURPASEXTR][ComplementTurpasextr][tipo_id]`_ Número de pasaporte
+  * _`data[Invoice][Complements][TURPASEXTR][ComplementTurpasextr][tipo_transito]`_ Expresar la información de la operación realizada
+  * _`data[Invoice][Complements][TURPASEXTR][ComplementTurpasextr][via]`_ Expresar si es vía _Aérea_, _Marítima_ o _Terrestre_
+
+ _*ADDENDAS*_
+
+ * _`data[Invoice][addenda]`_  Addenda definida por el usuario puede ser texto plano o en formato XML
+
 
 == Generación del CFD ==
 
