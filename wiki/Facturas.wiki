@@ -72,7 +72,7 @@ Datos POST:
  * _`data[Invoice][payment_account]`_  Cuenta de pago *(Solo si el método de pago lo requiere)*
  * _`data[Invoice][currency]`_  Moneda *(1=Peso, 2=Dolar)*
  * _`data[Invoice][exchange_rate]`_  Cambio *(Requerido solo si se factura en dolares)*
- * _`data[Invoice][type]`_  Tipo de comprobante
+* _`data[Invoice][type]`_  Tipo de comprobante _Ingreso_,_Egreso_
 
  * _`data[Invoice][client_id]`_  Id del cliente a facturar
 
