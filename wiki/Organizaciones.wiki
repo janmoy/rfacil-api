@@ -93,8 +93,8 @@ Datos POST:
 || 14 || Personas morales de sociedades cooperativas de producción ||
 
 *Ejemplo:*
-_`data[Regime][0] => 1`_
-_`data[Regime][1] => 4`_
-_`data[Regime][2] => 5`_
+_`data[Regime][0] => 1`_, 
+_`data[Regime][1] => 4`_, 
+_`data[Regime][2] => 5`_, 
   
   * _`data[Entity][type]`_ Tipo de entidad a dar de alta,  _Opciones: (Organization)_
