@@ -4,7 +4,7 @@
 
  * [Introduccion]
  * [Clientes]
- * [Series y Folios]
+ * [Series]
  * [Organizaciones]
  * [Productos]
  * [Facturas]
