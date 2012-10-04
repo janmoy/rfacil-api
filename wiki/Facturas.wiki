@@ -74,7 +74,7 @@ Datos POST:
  * _`data[Invoice][exchange_rate]`_  Cambio _*(Requerido solo si se factura en dolares)*_
  * _`data[Invoice][type]`_  Tipo de comprobante (_Ingreso_,_Egreso_)
  * _`data[Invoice][client_id]`_  Id del cliente a facturar
-
+ * _`data[Invoice][tax_type]`_  Tipo de impuesto del documento (_INDIVIDUAL_,_GRUPO_)
  o 
 
  * _`data[Client][create_client]`_  true para crear un nuevo cliente
