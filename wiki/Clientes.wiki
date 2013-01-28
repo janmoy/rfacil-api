@@ -56,7 +56,7 @@ Datos POST:
 Llamada:
 
  * _controller_ - clients
- * _view_ - add
+ * _view_ - edit
 
 Parámetros:
 
