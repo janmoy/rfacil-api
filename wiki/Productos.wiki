@@ -54,7 +54,7 @@ Datos POST:
 Llamada:
 
  * _controller_ - products
- * _view_ - add
+ * _view_ - edit
 
 Datos POST:
 
