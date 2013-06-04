@@ -48,6 +48,16 @@ Datos POST:
  * _`data[Product][serial_number]`_ 
  * _`data[Product][lot]`_ 
 
+_*Ejemplo ( Javascript )*_
+{{{
+var data = {
+            "data[Product][id]":10237,
+            "data[Product][title]":"prueba",
+            "data[Product][code]":"115",
+            "data[Product][unit_price]": 451.25
+           };
+$.post('http://CFDI_URL/products/edit.xml?username=USERNAME&password=PASSWORD@&apikey=APIKEY&tax_reference=AAA010101AAA', data);
+}}}
 
 == Editar un producto ==
 
