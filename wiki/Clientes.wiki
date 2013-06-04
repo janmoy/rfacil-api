@@ -50,6 +50,25 @@ Datos POST:
  * _`data[Client][city]`_ 
  * _`data[Client][country]`_ - Valor por defecto: México
 
+_*Ejemplo ( JavaScript )*_
+{{{
+var data = {
+            "data[Client][official_name]" : "Prueba" ,
+            "data[Client][tax_reference]" : "AAA010101AAA" ,
+            "data[Client][email]" : "prueba@rfacil.com" ,
+            "data[Client][phone]" : "111111111" ,
+            "data[Client][street]" : "Calle" ,
+            "data[Client][exterior_number]" : "103" ,
+            "data[Client][interior_number]" : "C" ,
+            "data[Client][postal_code]" : "1111" ,
+            "data[Client][state]" : "México" ,
+            "data[Client][quarter]" : "Colonia" ,
+            "data[Client][municipality]" : "Municipio" ,
+            "data[Client][city]" : "Ciudad" ,
+            "data[Client][country]" : "" ,
+           };
+$.post('http://CFDI_URL/clients/add.xml?username=USERNAME&password=PASSWORD@&apikey=APIKEY&tax_reference=AAA010101AAA', data);
+}}}
 
 == Editar un cliente ==
 
