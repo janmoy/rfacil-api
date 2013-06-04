@@ -52,7 +52,7 @@ _*Ejemplo ( Javascript )*_
 {{{
 var data = {
             "data[Product][title]":"prueba",
-            "data[Product][code]":"115",
+            "data[Product][code]":"prueba",
             "data[Product][unit_price]": 451.25
            };
 $.post('http://CFDI_URL/products/add.xml?username=USERNAME&password=PASSWORD@&apikey=APIKEY&tax_reference=AAA010101AAA', data);
@@ -83,9 +83,9 @@ Datos POST:
 _*Ejemplo ( Javascript )*_
 {{{
 var data = {
-            "data[Product][id]":10237,
+            "data[Product][id]": 1,
             "data[Product][title]":"prueba",
-            "data[Product][code]":"115",
+            "data[Product][code]":"prueba",
             "data[Product][unit_price]": 451.25
            };
 $.post('http://CFDI_URL/products/edit.xml?username=USERNAME&password=PASSWORD@&apikey=APIKEY&tax_reference=AAA010101AAA', data);
