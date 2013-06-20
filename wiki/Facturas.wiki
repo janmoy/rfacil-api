@@ -71,6 +71,7 @@ Datos POST:
 || No || Other ||
 
  * _`data[Invoice][payment_account]`_  Cuenta de pago *(Solo si el método de pago lo requiere)*
+ * _`data[Invoice][payment_form]`_  Forma de pago *(Por default es: Pago en una sola exhibición)*
  * _`data[Invoice][currency]`_  Moneda *(1=Peso, 2=Dolar)*
  * _`data[Invoice][exchange_rate]`_  Cambio _*(Requerido solo si se factura en dolares)*_
  * _`data[Invoice][type]`_  Tipo de comprobante (_Ingreso_,_Egreso_)
